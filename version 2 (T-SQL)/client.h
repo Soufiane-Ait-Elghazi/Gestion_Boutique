@@ -1,0 +1,12 @@
+typedef struct Sclient client;
+client * getClients(char* );
+client *ajouterClientauList(client *, int, char*, char*, char *, char* , char *,float);
+int FichierVide(FILE *);
+int Client_existe(char*, char*, char *, char* ,char*);
+void AddClient(char*, char* , char*, char*, char *,float );
+int Client_exist(int);
+void AfficherTousLesClients();
+void changerInfoClient(int);
+void ChercherCient();
+void deleteClient(int);
+//float getCac(int);
